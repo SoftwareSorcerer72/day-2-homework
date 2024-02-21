@@ -80,7 +80,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-font-size: .9em;  
+font-size: .9em; 
+color: rgba(128, 128, 128, 0.815);
 }
 
 #create-account {
@@ -113,8 +114,14 @@ footer {
 #footer-links {
     text-align: center;
     margin-top: 30px;
+    font-size: .8em;
    
 }
+
+#copyright {
+    font-size: .7em;
+    
+  }
 
 a {
     text-decoration: none;
@@ -134,5 +141,9 @@ a {
   }
 
   #continue:active {
-    transform: scale(1.001); 
+    transform: scale(1.002); 
+  }
+
+  button {
+    cursor: pointer;
   }
