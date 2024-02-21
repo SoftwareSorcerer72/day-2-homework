@@ -95,13 +95,17 @@ footer {
     width: 100%;
     text-align: center;
     border-top: 1px solid grey;
-    border-height: 1px; 
+     
   }
 
-  #footer-links {
-    display: flex;
-    justify-content: center;
+#footer-links {
+    text-align: center;
     margin-top: 30px;
+   
+}
+
+a {
+    text-decoration: none;
   }
 
   
